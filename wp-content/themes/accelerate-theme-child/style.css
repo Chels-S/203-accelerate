@@ -165,3 +165,67 @@ div.case-study-images img {
 
 
 /* End Social Media Icon Styles */
+
+
+/* Contact Form Page Styles */
+.nf-form-fields-required {
+  display: none;
+}
+
+.ninja-forms-req-symbol {
+  display: none;
+}
+
+.nf-form-content{
+  width: 700px;
+}
+
+#nf-field-1, #nf-field-2, #nf-field-3 {
+  background: #fff;
+}
+
+#nf-label-field-1, #nf-label-field-2, #nf-label-field-3 {
+  font-size: 15px;
+}
+
+#nf-field-1-container, #nf-field-2-container  {
+display: inline-block;
+}
+
+#nf-field-1-wrap, #nf-field-2-wrap {
+  width: 330px;
+}
+
+#nf-field-1-wrap{
+margin-right:20px;
+}
+
+#nf-field-1, #nf-field-2 {
+  max-width: 360px;
+}
+
+.contact-content p {
+  max-width: 700px;
+  margin-bottom: 40px;
+}
+
+.contact-content h2 {
+  max-width: 200px;
+  font-size: 26px;
+  margin-left: 130px;
+}
+
+
+#nf-field-4 {
+  background: #45ab9d;
+  width: 200px;
+  float: right;
+}
+
+/*End Contact Form Page Styles */
+
+/* About Page Styles */
+
+
+
+/* End About Page Styles */
