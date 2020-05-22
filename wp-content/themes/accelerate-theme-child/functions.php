@@ -31,20 +31,8 @@ function create_custom_post_types() {
         )
     );
 
-/*
-		register_post_type( 'about_page',
-        array(
-            'labels' => array(
-                'name' => __( 'About Page' ),
-                'singular_name' => __( 'About' )
-            ),
-            'public' => true,
-            'has_archive' => true,
-            'rewrite' => array( 'slug' => 'about-us' ),
-        )
-    );
-*/
 }
+
 
 // Hook this custom post type function into the theme
 add_action( 'init', 'create_custom_post_types' );
