@@ -58,5 +58,18 @@ get_header(); ?>
  			</div>
 	</section>
 
+			<div class="twitter-module">
+				<h4>Recent Tweet</h4>
+				<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+					<div id="secondary" class="widget-area" role="complementary">
+						<?php dynamic_sidebar( 'sidebar-2' ); ?>
+					</div>
+				<?php endif; ?>
+				<div class="follow-link">
+					<a  href="https://twitter.com/chelseysexton">Follow Us &rsaquo;</a>
+				</div>
+			</div>
+
+
 
 <?php get_footer(); ?>
